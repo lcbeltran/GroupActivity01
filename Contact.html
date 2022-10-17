@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts </title>
+    <link rel="stylesheet" href="NAV.css">
+    <link rel="stylesheet" href="Contact.css">
+
+</head>
+<body>
+    <header>
+        <img class="logo" src="IMG/Logo.svg" alt="logo" width="170px">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="Index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT ME</a></li>
+                <li><a href="Services.html">SERVICES</a></li>
+                <li><a href="Projects.html">PROJECTS</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="Contact.html"><button class="wwe">CONTACT ME</button></a>
+    </header>
+    
+    <div class="contact_us">
+
+        <h1>Contact Me</h1>
+
+        <form action="">
+            <div class="text_field">
+                <input type="text" id="fName" name="fName" required>
+                <span></span>
+                <label for="fName">First Name</label>
+            </div>
+
+            <div class="text_field">
+                <input type="text" id="lName" name="lName" required>
+                <span></span>
+                <label for="lName">Last Name</label>
+            </div>
+
+            <div class="text_field">
+                <input type="text" id="eAdd" name="eAdd" required>
+                <span></span>
+                <label for="eAdd">Email Address</label>
+            </div>
+
+            <div class="text_field">
+                <input type="text" id="eAdd" name="eAdd" required>
+                <span></span>
+                <label for="eAdd">Contact Number <i> Ex: (+63)912 345 6789) </i></label>
+            </div>
+
+            <div class="Text_area">
+                <div style="display: block;" id="Message" class="Message">
+                    <label id="message">Message</label>
+                    <textarea cols="2" rows="10" id="message"></textarea>
+                </div>
+            </div>
+
+            <div class="submit">
+                <input type="submit" Value="Submit" >
+                <input type="reset" Value="Clear" >
+            </div>
+        </form>
+    </div>
+</body>
+
+<footer>
+     &copy; 2022 ADA LLC
+</footer>
+
+
+</html>
